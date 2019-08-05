@@ -1,12 +1,13 @@
-var express = require("express");
+const express = require("express");
 var app = express();
 const pg = require("pg");
 const jwt = require("jwt-simple");
-var cookieParser = require('cookie-parser')
+const cookieParser = require('cookie-parser')
 
 const SECRET = "Key";
 
-var conString = "postgres://postgres:AiaGrt6308@localhost:5432/Test";
+//строка для подключения к базе данных
+const conString = "postgres://postgres:AiaGrt6308@localhost:5432/Test";
 var Client = new pg.Client(conString);
 Client.connect();
 

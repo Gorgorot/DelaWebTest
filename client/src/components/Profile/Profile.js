@@ -50,7 +50,6 @@ export default class Profile extends React.Component{
                             </div>
                             <ul class="list-group list-group-flush">                                    
                                 <li class="list-group-item text-green">Online</li>
-                                <li class="list-group-item">mail@mail.ru</li>
                             </ul>
                         </div>
                     </div>

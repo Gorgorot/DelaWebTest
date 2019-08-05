@@ -100,7 +100,6 @@ export default class ProfileEditor extends React.Component{
                             </div>
                             <ul className="list-group list-group-flush">                                    
                                 <li className="list-group-item text-green">Online</li>
-                                <li className="list-group-item">mail@mail.ru</li>
                             </ul>
                         </div>
                     </div>
